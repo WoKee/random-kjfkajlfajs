@@ -1,4 +1,3 @@
-
 /* 壁纸Pro配置示例，零成本实现个人自定义壁纸接口。百分百兼容任意壳子。
 
 影视_多仓 D1_X 以上版本支持
@@ -30,20 +29,26 @@ w_phone为竖版壁纸， w_tv为横板壁纸，程序会按照屏幕比例自�
 
 */
 
-
 {
+  "w_phone_directory": "./p",
   "w_phone": [
-    "./1.jpg",
-    "https://xxxx.com/2.png",
-    "file://wp/3.png",
-    "http://127.0.0.1:9987/file/wp/3.png",
-    "https://xn--spsx60cgim8pd.xxooo.cf/"
+    "./p/1.webp",
+    "./p/2.webp"
   ],
+
+  "w_tv_directory": "./t",
   "w_tv": [
-    "./1.jpg",
-    "https://xxxx.com/2.png",
-    "file://wp/3.png",
-    "http://127.0.0.1:9987/file/wp/3.png",
-    "https://xn--spsx60cgim8pd.xxooo.cf/"
-  ]
+    "./t/1.jpg",
+    "./t/2.jpg"
+  ],
+
+  "desc": "文件固定以_msw.json 结尾，快速匹配处理。w_phone为竖版壁纸， w_tv为横板壁纸，程序会按照屏幕比例自动选择横竖版。",
+  "desc1": "支持 在线、本地、缺省、原版图床 四种格式，应该包揽了所有格式。",
+  "desc2": "_directory代表文件夹，仅支持本地配，网络url不支持遍历,不区分协议 支持clan ./ 127 file:// ",
+  "desc3": "优先取 _directory文件夹，如果配置的文件夹不存在或不可用自动取下级文件数据配置",
+  "desc4": "如果配置 _directory文件夹，则不需要配置 w_phone w_tv俩个配置"
 }
+
+
+
+

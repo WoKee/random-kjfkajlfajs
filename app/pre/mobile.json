@@ -1,6 +1,6 @@
 {
-  "code": 123487,
-  "name": "1017",
+  "code": 123488,
+  "name": "1018",
   "force": false,
   "app_icon": "aHR0cHM6Ly9taXJyb3IuZ2hwcm94eS5jb20vaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1dvS2VlL3JhbmRvbS1ramZrYWpsZmFqcy9tYWluMS9qcy9hcHBfaWNvbjEudGVtcA==",
   "desc": "[0923 细节微调，修复部分BUG]\n,非特效字幕支持调节，后台画中画仅播放中触发，\nEXO升级1.4.1\n首页支持分类弹窗,可长按分类或右下蓝色方块。\n搜索支持线路置顶。\nAppYsV2&采集、Embys 大全类支持增量搜索,全部秒搜不等待."
